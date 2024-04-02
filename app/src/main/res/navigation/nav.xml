@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="th.co.octagon.interactive.ocr_passport.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_ocrFragment"
+            app:destination="@id/ocrFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ocrFragment"
+        android:name="th.co.octagon.interactive.ocr_passport.OcrFragment"
+        android:label="OcrFragment"
+        tools:layout="@layout/fragment_ocr">
+        <action
+            android:id="@+id/action_ocrFragment_to_mainFragment"
+            app:destination="@id/mainFragment" >
+            <argument
+                android:name="exampleData"
+                app:argType="string"
+                android:defaultValue="default_value" />
+        </action>
+
+
+    </fragment>
+
+
+</navigation>

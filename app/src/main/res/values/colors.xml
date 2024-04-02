@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="purple_200">#D81B60</color>
+    <color name="purple_500">#D81B60</color>
+    <color name="purple_700">#D81B60</color>
+
+    <color name="teal_200">#D81B60</color>
+    <color name="teal_700">#D81B60</color>
+
+    <color name="letmein_text">#18a4d1</color>
+    <color name="inactive">#393a3a</color>
+
+    <color name="edt_bg">#202020</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="hint_text">#66ffffff</color>
+
+    <color name="opacity_black">#85000000</color>
+    <color name="radio_bg"></color>
+
+    <color name="colorTransparent">#99000000</color>
+    <color name="tranparent">#00121212</color>
+    <color name="redTransparent">#7ffd0101</color>
+
+    <color name="red">#CC0000</color>
+    <color name="green">#00CC33</color>
+
+    <color name="GRAY">#808080</color>
+    <color name="avaliable">#44b5b5</color>
+    <color name="transparent">#00121212</color>
+</resources>
